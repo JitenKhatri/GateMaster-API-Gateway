@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "694f5c6a-db46-4385-be02-beba064e81ef": {
+      "ProjectGuid": "694f5c6a-db46-4385-be02-beba064e81ef",
+      "DisplayName": "gateway.webapi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

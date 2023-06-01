@@ -1,0 +1,103 @@
+{
+
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Country/GetCountries",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7049
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Country/GetCountries",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/Country/GetCityForCountry/{Id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7049
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Country/GetCityForCountry/{Id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/Employee/GetEmployeeById/{Id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7049
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Employee/GetEmployeeById/{Id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/Employee/AddEmployee",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7049
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Employee/AddEmployee",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/Employee/GetEmployees",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7049
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Employee/GetEmployees",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/Employee/UpdateEmployee",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7049
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Employee/UpdateEmployee",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/Employee/DeleteEmployee/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7049
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Employee/DeleteEmployee/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    }
+
+  ]
+
+}

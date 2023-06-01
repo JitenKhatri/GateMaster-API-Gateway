@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qDpri/quF3kVEp22ZnBKpV7knFH/znjzPLocd0h5/TA=",
+  "Source": "gateway.webapi",
+  "BasePath": "_content/gateway.webapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
