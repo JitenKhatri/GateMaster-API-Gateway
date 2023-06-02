@@ -10,6 +10,10 @@
           "Port": 7049
         }
       ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
       "UpstreamPathTemplate": "/gateway/Country/GetCountries",
       "UpstreamHttpMethod": [ "GET" ]
     },
@@ -24,6 +28,10 @@
           "Port": 7049
         }
       ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
       "UpstreamPathTemplate": "/gateway/Country/GetCityForCountry/{Id}",
       "UpstreamHttpMethod": [ "GET" ]
     },
@@ -38,6 +46,10 @@
           "Port": 7049
         }
       ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
       "UpstreamPathTemplate": "/gateway/Employee/GetEmployeeById/{Id}",
       "UpstreamHttpMethod": [ "GET" ]
     },
@@ -52,6 +64,10 @@
           "Port": 7049
         }
       ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
       "UpstreamPathTemplate": "/gateway/Employee/AddEmployee",
       "UpstreamHttpMethod": [ "POST" ]
     },
@@ -66,6 +82,10 @@
           "Port": 7049
         }
       ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
       "UpstreamPathTemplate": "/gateway/Employee/GetEmployees",
       "UpstreamHttpMethod": [ "POST" ]
     },
@@ -80,6 +100,10 @@
           "Port": 7049
         }
       ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
       "UpstreamPathTemplate": "/gateway/Employee/UpdateEmployee",
       "UpstreamHttpMethod": [ "PUT" ]
     },
@@ -94,9 +118,14 @@
           "Port": 7049
         }
       ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
       "UpstreamPathTemplate": "/gateway/Employee/DeleteEmployee/{id}",
       "UpstreamHttpMethod": [ "DELETE" ]
     }
+
 
   ]
 
